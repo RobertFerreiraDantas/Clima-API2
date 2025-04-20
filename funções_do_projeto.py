@@ -1,8 +1,9 @@
 import os
-import requests
+from datetime import datetime
 import logging
 
-from datetime import datetime
+
+import requests
 from requests.exceptions import RequestException
 from json.decoder import JSONDecodeError
 from sqlalchemy.exc import SQLAlchemyError, OperationalError, ProgrammingError
