@@ -1,11 +1,12 @@
 # Clima-API2
 
 ## Objetivo
-Essa continuação do projeto Clima-API tem como objetivo reunir dados meteorológico para realizar uma análise temporal. 
+Essa continuação do projeto Clima-API tem como objetivo reunir dados meteorológico para realizar uma análise temporal das cidades de Palmas, Porto Alegre e São Paulo. 
 
 ## Melhorias implementas 
 - Maior modularização do projeto : cada arquivo .py tem uma função bem definida 
 - Maior detalhamento do try/except : foi pensando em cada função feita as possíveis causas de exceções, utilizando excepts específicos junto com o generalizado para uma maior captura
+- Uso de log : para ainda uma melhor rastreabilidade vai ser utilizado log no código, tanto no excepts, para ter uma maior dimensão da exeção, quanto no funcionamento do código geral. 
 
 ## Tecnologias implementadas 
 - Python : utilizei para extrair os dados da API, reestruturar os dados e enviar para o banco de dados
