@@ -1,16 +1,21 @@
 name: Python CI
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: '0 11 * * *'  
-    - cron: '0 19 * * *'  
-    - cron: '0 1 * * *'   
+# Ativo apenas para execução manual:
+on: 
+  workflow_dispatch
+ 
+# Desativado para não rodar automaticamente (como a automação funcionva):
+# on:
+#  push:
+#    branches:
+#      - main
+#  pull_request:
+#    branches:
+#      - main
+#  schedule:
+#    - cron: '0 11 * * *'  
+#    - cron: '0 19 * * *'  
+#    - cron: '0 1 * * *'   
 
 jobs:
   build:
