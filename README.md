@@ -14,6 +14,11 @@ Essa continuação do projeto Clima-API tem como objetivo reunir dados meteorol�
 - Render : serviço em nuvem utilizado para hospedar o banco 24 hrs
 - Power BI : software que será utilizado para formar os dashboards com a análise temporal
 
+
+## Atualização
+
+Caso queira ver com mais detalhe o resultado final do projeto, com o documento complementar e os dashboards, sugiro fortemente clicar no link e ir em CLIMA-API 2 na aba projetos [linkedIn](https://www.linkedin.com/in/robert-ferreira-b1324329a/).
+
 ## Contato
 
 [<img src="https://avatars.githubusercontent.com/u/107763276?v=4" width=115> <br> <sub>Robert Ferreira Dantas</sub>](https://github.com/RobertFerreiraDantas)  
